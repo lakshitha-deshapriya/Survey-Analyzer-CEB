@@ -1,0 +1,233 @@
+drop database survey;
+create database survey;
+use survey;
+
+create table 1stpage(
+sheetname int(20),
+surv_name varchar(50),
+time varchar(20),
+place varchar(50),
+cus_name varchar(50),
+address varchar(50),
+units varchar(20),
+acc_no varchar(20),
+bill double(10,2),
+stat varchar(15),
+net_meetering varchar(3),
+power varchar(20),
+capacity varchar(10),
+building varchar(20),
+bed_room int(3),
+all_room int(3),
+age int(3),
+living int(3),
+surveyer varchar(50),
+surv_place varchar(30),
+
+primary key(acc_no)
+);
+
+create table questions(
+acc_no varchar(20),
+data1 varchar(2),
+data2 varchar(2),
+data3 varchar(2),
+data4 varchar(2),
+data5 varchar(2),
+data6 varchar(2),
+data7 varchar(300),
+data8 varchar(2),
+data9 varchar(2),
+data10 varchar(2),
+data11 varchar(2),
+data12 varchar(2),
+data13 varchar(2),
+data14 varchar(2),
+data15 varchar(2),
+data16 varchar(2),
+data17 varchar(2),
+data18 varchar(300),
+data19 varchar(2),
+data20 varchar(2),
+data21 varchar(2),
+data22 varchar(2),
+data23 varchar(2),
+data24 varchar(2),
+data25 varchar(2),
+data26 varchar(2),
+data27 varchar(2),
+data28 varchar(2),
+data29 varchar(300),
+data30 varchar(2),
+
+primary key(acc_no)
+);
+
+create table fridge(
+acc_no varchar(20),
+data1 varchar(2),
+data2 varchar(15),
+data3 varchar(10),
+data4 varchar(10),
+data5 varchar(2),
+data6 varchar(10),
+data7 varchar(2),
+data8 varchar(2),
+data9 varchar(2),
+data10 varchar(2),
+data11 varchar(2),
+data12 varchar(300),
+data13 varchar(2),
+data14 varchar(2),
+data15 varchar(2),
+data16 varchar(2),
+data17 varchar(15),
+data18 varchar(10),
+data19 varchar(2),
+
+primary key(acc_no)
+);
+
+create table nidana_bulb(
+acc_no varchar(20),
+suthrika int(4),
+cfl int(4),
+tube_light_4 int(4),
+tube_light_2 int(4),
+led int(4),
+other int(4),
+
+primary key(acc_no)
+);
+
+create table nidana_paya(
+acc_no varchar(20),
+suthrika int(4),
+cfl int(4),
+tube_light_4 int(4),
+tube_light_2 int(4),
+led int(4),
+other int(4),
+
+primary key(acc_no)
+);
+
+create table nidana_watt(
+acc_no varchar(20),
+suthrika int(4),
+cfl int(4),
+tube_light_4 int(4),
+tube_light_2 int(4),
+led int(4),
+other int(4),
+
+primary key(acc_no)
+);
+
+create table wisiththa_bulb(
+acc_no varchar(20),
+suthrika int(4),
+cfl int(4),
+tube_light_4 int(4),
+tube_light_2 int(4),
+led int(4),
+other int(4),
+
+primary key(acc_no)
+);
+
+create table wisiththa_paya(
+acc_no varchar(20),
+suthrika int(4),
+cfl int(4),
+tube_light_4 int(4),
+tube_light_2 int(4),
+led int(4),
+other int(4),
+
+primary key(acc_no)
+);
+
+create table wisiththa_watt(
+acc_no varchar(20),
+suthrika int(4),
+cfl int(4),
+tube_light_4 int(4),
+tube_light_2 int(4),
+led int(4),
+other int(4),
+
+primary key(acc_no)
+);
+
+create table other_bulb(
+acc_no varchar(20),
+suthrika int(4),
+cfl int(4),
+tube_light_4 int(4),
+tube_light_2 int(4),
+led int(4),
+other int(4),
+
+primary key(acc_no)
+);
+
+create table other_paya(
+acc_no varchar(20),
+suthrika int(4),
+cfl int(4),
+tube_light_4 int(4),
+tube_light_2 int(4),
+led int(4),
+other int(4),
+
+primary key(acc_no)
+);
+
+create table other_watt(
+acc_no varchar(20),
+suthrika int(4),
+cfl int(4),
+tube_light_4 int(4),
+tube_light_2 int(4),
+led int(4),
+other int(4),
+
+primary key(acc_no)
+);
+
+create table outside_bulb(
+acc_no varchar(20),
+suthrika int(4),
+cfl int(4),
+tube_light_4 int(4),
+tube_light_2 int(4),
+led int(4),
+other int(4),
+
+primary key(acc_no)
+);
+
+create table outside_paya(
+acc_no varchar(20),
+suthrika int(4),
+cfl int(4),
+tube_light_4 int(4),
+tube_light_2 int(4),
+led int(4),
+other int(4),
+
+primary key(acc_no)
+);
+
+create table outside_watt(
+acc_no varchar(20),
+suthrika int(4),
+cfl int(4),
+tube_light_4 int(4),
+tube_light_2 int(4),
+led int(4),
+other int(4),
+
+primary key(acc_no)
+);
